@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1600" role="img" aria-label="Original fantasy portrait inspired by Li Bai">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#14272b"/>
+      <stop offset=".48" stop-color="#29585a"/>
+      <stop offset="1" stop-color="#f0c66d"/>
+    </linearGradient>
+    <radialGradient id="moon" cx=".72" cy=".18" r=".38">
+      <stop offset="0" stop-color="#fff9d6"/>
+      <stop offset=".42" stop-color="#bfe7df" stop-opacity=".78"/>
+      <stop offset="1" stop-color="#14272b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="robe" x1=".2" x2=".84" y1=".05" y2=".95">
+      <stop offset="0" stop-color="#f5fbf2"/>
+      <stop offset=".52" stop-color="#bfe3da"/>
+      <stop offset="1" stop-color="#356869"/>
+    </linearGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="1600" fill="url(#bg)"/>
+  <circle cx="870" cy="270" r="255" fill="url(#moon)"/>
+  <path d="M108 1230 C318 1090 434 965 508 724 C606 405 828 263 1110 188 L1110 1600 L108 1600 Z" fill="#071013" opacity=".38"/>
+  <path d="M188 1338 C352 1163 425 931 476 750 C538 532 687 405 865 342 C711 535 698 716 774 884 C858 1070 1033 1181 1158 1312 L1158 1600 L188 1600 Z" fill="#e8c367" opacity=".14"/>
+  <path d="M610 338 C700 366 764 446 764 554 C764 670 688 748 592 748 C493 748 421 664 421 556 C421 450 504 330 610 338 Z" fill="#f2d4b4"/>
+  <path d="M422 555 C462 424 545 330 634 333 C752 337 825 469 781 607 C738 536 648 503 556 521 C498 532 458 545 422 555 Z" fill="#1f2524"/>
+  <path d="M483 675 C531 741 639 752 703 688 C707 804 744 876 840 927 C724 1006 516 1009 396 913 C456 858 480 783 483 675 Z" fill="#f1cda8"/>
+  <path d="M348 916 C478 818 734 814 884 920 C1020 1018 1102 1219 1140 1600 L78 1600 C115 1227 204 1026 348 916 Z" fill="url(#robe)"/>
+  <path d="M235 1600 C292 1260 415 1054 580 889 C548 1118 570 1356 632 1600 Z" fill="#ffffff" opacity=".62"/>
+  <path d="M767 903 C729 1114 721 1362 796 1600 L1152 1600 C1105 1252 1009 1016 767 903 Z" fill="#133235" opacity=".52"/>
+  <path d="M183 1465 L1028 428" stroke="#f6e4a9" stroke-width="18" stroke-linecap="round"/>
+  <path d="M195 1478 L1040 441" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity=".82"/>
+  <path d="M823 431 L985 316 L1058 383 L919 518 Z" fill="#d6b15e"/>
+  <path d="M235 1138 C362 1169 470 1213 568 1308" fill="none" stroke="#1a706c" stroke-width="18" opacity=".75"/>
+  <path d="M362 1090 C497 1158 635 1157 782 1089" fill="none" stroke="#f1cb72" stroke-width="8" opacity=".75"/>
+  <g opacity=".34" filter="url(#soft)">
+    <path d="M160 420 C340 360 488 305 657 172" fill="none" stroke="#fff7cf" stroke-width="10"/>
+    <path d="M720 113 C876 198 992 310 1095 474" fill="none" stroke="#fff7cf" stroke-width="7"/>
+    <path d="M85 608 C290 618 462 585 638 476" fill="none" stroke="#fff7cf" stroke-width="6"/>
+  </g>
+  <g opacity=".26">
+    <circle cx="190" cy="248" r="5" fill="#fff8cf"/>
+    <circle cx="258" cy="334" r="3" fill="#fff8cf"/>
+    <circle cx="1018" cy="774" r="4" fill="#fff8cf"/>
+    <circle cx="934" cy="1020" r="3" fill="#fff8cf"/>
+    <circle cx="142" cy="846" r="3" fill="#fff8cf"/>
+  </g>
+</svg>

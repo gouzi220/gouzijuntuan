@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1600" role="img" aria-label="Original fantasy portrait inspired by Diao Chan">
+  <defs>
+    <linearGradient id="bg" x1=".02" x2=".98" y1=".04" y2=".96">
+      <stop offset="0" stop-color="#23131f"/>
+      <stop offset=".42" stop-color="#7a2844"/>
+      <stop offset="1" stop-color="#d7a45d"/>
+    </linearGradient>
+    <linearGradient id="silk" x1=".18" x2=".86" y1=".06" y2=".96">
+      <stop offset="0" stop-color="#fff0f4"/>
+      <stop offset=".45" stop-color="#d84b70"/>
+      <stop offset="1" stop-color="#27131e"/>
+    </linearGradient>
+    <radialGradient id="light" cx=".68" cy=".24" r=".5">
+      <stop offset="0" stop-color="#fff3ca"/>
+      <stop offset=".34" stop-color="#f2adc0" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#23131f" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="8"/></filter>
+  </defs>
+  <rect width="1200" height="1600" fill="url(#bg)"/>
+  <circle cx="814" cy="332" r="330" fill="url(#light)"/>
+  <path d="M0 1166 C210 1032 350 846 420 618 C512 316 690 151 1188 54 L1200 1600 L0 1600 Z" fill="#110910" opacity=".42"/>
+  <path d="M485 301 C579 248 710 305 760 431 C811 561 755 697 641 742 C526 786 423 716 400 591 C379 477 407 344 485 301 Z" fill="#efc2ab"/>
+  <path d="M402 590 C395 445 455 318 574 285 C700 249 814 360 811 524 C729 446 617 430 510 474 C462 493 431 526 402 590 Z" fill="#24151e"/>
+  <path d="M486 682 C544 750 651 750 711 681 C720 786 764 858 861 916 C718 1030 492 1024 346 910 C425 858 475 780 486 682 Z" fill="#e5ae99"/>
+  <path d="M327 916 C471 812 733 807 881 922 C1038 1044 1125 1286 1167 1600 L37 1600 C78 1274 164 1039 327 916 Z" fill="url(#silk)"/>
+  <path d="M177 1600 C251 1276 380 1034 566 872 C529 1118 549 1367 626 1600 Z" fill="#fff0f4" opacity=".44"/>
+  <path d="M752 872 C811 1114 832 1361 807 1600 L1167 1600 C1127 1282 1017 1035 752 872 Z" fill="#28131f" opacity=".78"/>
+  <path d="M211 1188 C421 1266 711 1253 980 1145" fill="none" stroke="#f4c262" stroke-width="16" opacity=".65"/>
+  <path d="M259 1020 C460 1118 681 1112 880 1016" fill="none" stroke="#fff0f4" stroke-width="15" opacity=".47"/>
+  <path d="M304 518 C259 608 250 716 298 805 C350 902 460 971 602 1002 C433 1018 282 971 190 874 C89 766 91 620 204 506 Z" fill="#f8d6df" opacity=".18"/>
+  <path d="M776 459 C891 518 961 623 958 748 C955 874 865 968 721 1018 C908 1007 1058 924 1110 785 C1157 657 1102 518 961 425 Z" fill="#ffd6df" opacity=".16"/>
+  <g opacity=".36" filter="url(#blur)">
+    <path d="M92 725 C292 620 505 587 754 625" fill="none" stroke="#ffe7ec" stroke-width="8"/>
+    <path d="M211 901 C453 796 711 803 1050 925" fill="none" stroke="#ffe7ec" stroke-width="6"/>
+    <path d="M200 252 C387 339 531 369 723 334" fill="none" stroke="#ffe7ec" stroke-width="7"/>
+  </g>
+</svg>

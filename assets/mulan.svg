@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1600" role="img" aria-label="Original fantasy portrait inspired by Hua Mulan">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#311518"/>
+      <stop offset=".45" stop-color="#8f2d2e"/>
+      <stop offset="1" stop-color="#c7a15a"/>
+    </linearGradient>
+    <linearGradient id="armor" x1=".18" x2=".85" y1=".08" y2=".92">
+      <stop offset="0" stop-color="#f5e7c8"/>
+      <stop offset=".38" stop-color="#a92f32"/>
+      <stop offset="1" stop-color="#171918"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff4d8"/>
+      <stop offset=".5" stop-color="#a7b3b0"/>
+      <stop offset="1" stop-color="#222c2c"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="8"/></filter>
+  </defs>
+  <rect width="1200" height="1600" fill="url(#bg)"/>
+  <path d="M0 1180 C235 1005 341 806 414 546 C498 244 679 112 1200 24 L1200 1600 L0 1600 Z" fill="#18090b" opacity=".4"/>
+  <path d="M148 466 C350 324 559 262 809 220 C942 198 1060 148 1190 66 L1190 367 C941 406 728 475 552 590 C390 695 279 815 159 992 Z" fill="#f2c55b" opacity=".16"/>
+  <path d="M593 286 C704 290 782 394 779 526 C776 648 696 734 594 734 C489 734 417 639 421 517 C425 385 487 281 593 286 Z" fill="#f0c2a4"/>
+  <path d="M418 524 C450 359 520 271 625 272 C742 274 824 389 805 540 C737 470 627 431 499 464 C468 473 443 494 418 524 Z" fill="#24201f"/>
+  <path d="M479 682 C525 743 643 754 705 685 C715 786 758 860 849 919 C708 1022 493 1016 364 910 C437 861 472 778 479 682 Z" fill="#edb997"/>
+  <path d="M318 925 C430 827 725 812 878 924 C1032 1038 1117 1266 1172 1600 L45 1600 C87 1240 164 1058 318 925 Z" fill="url(#armor)"/>
+  <path d="M145 1600 C197 1262 321 1028 522 870 C501 1109 543 1366 622 1600 Z" fill="#a5242b" opacity=".88"/>
+  <path d="M771 872 C809 1105 829 1363 792 1600 L1172 1600 C1120 1268 1017 1009 771 872 Z" fill="#211918" opacity=".78"/>
+  <path d="M280 1042 C448 1138 704 1140 900 1035" fill="none" stroke="#f7d17a" stroke-width="22" opacity=".72"/>
+  <path d="M228 1258 C412 1327 663 1339 939 1262" fill="none" stroke="#161919" stroke-width="20" opacity=".46"/>
+  <path d="M807 152 L1046 1510" stroke="url(#steel)" stroke-width="32" stroke-linecap="round"/>
+  <path d="M836 157 L1073 1514" stroke="#fff7d8" stroke-width="5" stroke-linecap="round" opacity=".85"/>
+  <path d="M742 260 L867 203 L907 286 L784 343 Z" fill="#d5b05b"/>
+  <g opacity=".32" filter="url(#blur)">
+    <path d="M86 708 C290 626 498 591 740 605" fill="none" stroke="#ffd276" stroke-width="12"/>
+    <path d="M184 877 C406 757 660 740 1014 815" fill="none" stroke="#ffd276" stroke-width="7"/>
+    <path d="M336 212 C505 313 651 358 855 363" fill="none" stroke="#ffd276" stroke-width="8"/>
+  </g>
+</svg>

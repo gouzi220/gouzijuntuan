@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 820" role="img" aria-label="Cinematic animated hero reel">
+  <defs>
+    <linearGradient id="skyA" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#090909"/>
+      <stop offset=".32" stop-color="#183536"/>
+      <stop offset=".66" stop-color="#8b2f35"/>
+      <stop offset="1" stop-color="#d0a35e"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff7d5" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff7d5" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#fff7d5" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff2be"/>
+      <stop offset=".48" stop-color="#7d9695"/>
+      <stop offset="1" stop-color="#1a2020"/>
+    </linearGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency=".75" numOctaves="2" seed="9"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 .14"/>
+      </feComponentTransfer>
+    </filter>
+    <mask id="wide">
+      <rect width="1920" height="820" fill="#fff"/>
+      <rect width="1920" height="88" y="0" fill="#000"/>
+      <rect width="1920" height="88" y="732" fill="#000"/>
+    </mask>
+  </defs>
+
+  <rect width="1920" height="820" fill="#050505"/>
+  <g mask="url(#wide)">
+    <rect width="1920" height="820" fill="url(#skyA)"/>
+    <g opacity=".24">
+      <path d="M0 680 C260 578 486 491 716 330 C1010 126 1308 86 1920 0 L1920 820 L0 820 Z" fill="#050505"/>
+      <path d="M72 612 C388 480 716 410 1105 388 C1402 372 1665 278 1920 118 L1920 820 L72 820 Z" fill="#f0c465" opacity=".16"/>
+    </g>
+
+    <g transform="translate(0 0)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-150 0;0 0" dur="13s" repeatCount="indefinite"/>
+      <g opacity=".96">
+        <rect x="128" y="132" width="276" height="544" rx="6" fill="#101b1c" stroke="#d4af62" stroke-opacity=".34"/>
+        <path d="M231 230 C281 174 365 205 385 280 C415 396 340 496 254 486 C164 475 142 318 231 230 Z" fill="#e7c4a7"/>
+        <path d="M158 565 C230 496 348 498 417 570 C468 623 488 686 500 780 L88 780 C102 683 121 602 158 565 Z" fill="#d8f6ee"/>
+        <path d="M105 726 L376 316" stroke="#fff0ad" stroke-width="12" opacity=".88"/>
+      </g>
+      <g opacity=".96">
+        <rect x="468" y="132" width="276" height="544" rx="6" fill="#2b1418" stroke="#d4af62" stroke-opacity=".34"/>
+        <path d="M574 228 C653 177 730 253 730 354 C729 466 645 522 568 484 C490 445 478 289 574 228 Z" fill="#eab79b"/>
+        <path d="M486 565 C570 491 686 500 760 578 C810 631 836 703 852 780 L414 780 C428 683 450 597 486 565 Z" fill="#b72e35"/>
+        <path d="M705 172 L815 780" stroke="#f4d282" stroke-width="14" opacity=".85"/>
+      </g>
+      <g opacity=".96">
+        <rect x="808" y="132" width="276" height="544" rx="6" fill="#111826" stroke="#d4af62" stroke-opacity=".34"/>
+        <circle cx="947" cy="272" r="136" fill="#c5f3ff" opacity=".24"/>
+        <path d="M908 236 C979 190 1054 251 1053 354 C1052 467 969 526 891 484 C810 441 812 298 908 236 Z" fill="#e6b6a3"/>
+        <path d="M823 562 C898 494 1019 500 1092 577 C1142 629 1167 704 1182 780 L751 780 C765 684 787 594 823 562 Z" fill="#89cde4"/>
+        <path d="M790 720 C904 508 1000 375 1126 270" stroke="#eafbff" stroke-width="14" opacity=".82"/>
+      </g>
+      <g opacity=".96">
+        <rect x="1148" y="132" width="276" height="544" rx="6" fill="#171a1a" stroke="#d4af62" stroke-opacity=".34"/>
+        <path d="M1249 229 C1332 166 1422 241 1414 360 C1406 479 1312 528 1239 483 C1168 438 1175 285 1249 229 Z" fill="#cf9d87"/>
+        <path d="M1162 566 C1243 491 1367 503 1444 580 C1495 631 1519 702 1534 780 L1092 780 C1108 684 1127 601 1162 566 Z" fill="#8e9b9a"/>
+        <path d="M1414 172 L1238 780" stroke="url(#steel)" stroke-width="24" opacity=".82"/>
+      </g>
+      <g opacity=".96">
+        <rect x="1488" y="132" width="276" height="544" rx="6" fill="#29141f" stroke="#d4af62" stroke-opacity=".34"/>
+        <path d="M1595 230 C1674 182 1750 253 1746 357 C1742 468 1652 526 1575 482 C1498 438 1500 288 1595 230 Z" fill="#e8b8a0"/>
+        <path d="M1503 562 C1585 492 1705 500 1780 578 C1831 631 1852 704 1864 780 L1435 780 C1447 684 1467 596 1503 562 Z" fill="#d94b70"/>
+        <path d="M1466 654 C1586 586 1726 584 1874 650" fill="none" stroke="#ffe2ec" stroke-width="11" opacity=".7"/>
+      </g>
+      <g opacity=".96">
+        <rect x="1828" y="132" width="276" height="544" rx="6" fill="#2a1c10" stroke="#d4af62" stroke-opacity=".34"/>
+        <path d="M1934 230 C2008 165 2104 242 2096 360 C2087 485 1989 529 1920 480 C1854 433 1864 292 1934 230 Z" fill="#c89170"/>
+        <path d="M1844 565 C1927 491 2051 503 2128 580 C2179 631 2202 704 2215 780 L1774 780 C1788 684 1808 600 1844 565 Z" fill="#c94a26"/>
+        <path d="M1808 652 L2144 516" stroke="#ffd15a" stroke-width="25" opacity=".86"/>
+      </g>
+    </g>
+
+    <g opacity=".75" filter="url(#soft)">
+      <path d="M-180 466 L620 110 L700 160 L-100 530 Z" fill="url(#beam)">
+        <animate attributeName="opacity" values=".1;.9;.15" dur="5.5s" repeatCount="indefinite"/>
+      </path>
+      <path d="M1220 110 L2140 524 L2060 594 L1140 178 Z" fill="url(#beam)">
+        <animate attributeName="opacity" values=".75;.16;.75" dur="7s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <rect width="1920" height="820" filter="url(#grain)" opacity=".32"/>
+    <rect y="0" width="1920" height="88" fill="#030303"/>
+    <rect y="732" width="1920" height="88" fill="#030303"/>
+    <text x="118" y="695" font-family="Georgia, 'Times New Roman', serif" font-size="42" fill="#fff4cd" opacity=".92">CINEMATIC HERO REEL</text>
+    <text x="118" y="746" font-family="'Microsoft YaHei', sans-serif" font-size="24" fill="#f6e8ce" opacity=".72">星河、长城、月光与战鼓，在同一条命运线上醒来。</text>
+    <g transform="translate(1492 665)">
+      <rect x="0" y="0" width="260" height="6" fill="#fff4cd" opacity=".2"/>
+      <rect x="0" y="0" width="260" height="6" fill="#fff4cd" opacity=".88">
+        <animate attributeName="width" values="0;260;0" dur="13s" repeatCount="indefinite"/>
+      </rect>
+      <text x="0" y="46" font-family="Georgia, serif" font-size="24" fill="#fff4cd" opacity=".78">00:15 / 21:9</text>
+    </g>
+  </g>
+</svg>
