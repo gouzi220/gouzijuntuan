@@ -3,23 +3,23 @@ const heroes = [
     id: "li-bai",
     name: "李白",
     title: "青莲剑仙",
-    img: "./assets/li-bai-user-4.png",
+    img: "./assets/optimized/li-bai-user-4.webp",
     caption: "天光与白羽环绕，剑仙气质被推到最华丽的神话瞬间。",
     gallery: [
       {
-        img: "./assets/li-bai-user-1.png",
+        img: "./assets/optimized/li-bai-user-1.webp",
         caption: "云上仙城中的俯视长镜，适合做首屏主视觉。"
       },
       {
-        img: "./assets/li-bai-user-2.png",
+        img: "./assets/optimized/li-bai-user-2.webp",
         caption: "月下回身的冷色构图，更像人物故事章节图。"
       },
       {
-        img: "./assets/li-bai-user-3.png",
+        img: "./assets/optimized/li-bai-user-3.webp",
         caption: "红枫与月光交织，诗意和战意同时出现。"
       },
       {
-        img: "./assets/li-bai-user-4.png",
+        img: "./assets/optimized/li-bai-user-4.webp",
         caption: "天光白羽的正面英雄像，最适合作为人物档案封面。"
       }
     ],
@@ -37,23 +37,23 @@ const heroes = [
     id: "mulan",
     name: "花木兰",
     title: "长城守卫者",
-    img: "./assets/mulan-user-2.png",
+    img: "./assets/optimized/mulan-user-2.webp",
     caption: "圣殿风暴中执剑而立，守护感被放大成史诗镜头。",
     gallery: [
       {
-        img: "./assets/mulan-user-1.png",
+        img: "./assets/optimized/mulan-user-1.webp",
         caption: "背光废墟中的回身长镜，冷冽又坚决。"
       },
       {
-        img: "./assets/mulan-user-2.png",
+        img: "./assets/optimized/mulan-user-2.webp",
         caption: "金色风暴下的正面英雄像，适合作为人物主视觉。"
       },
       {
-        img: "./assets/mulan-user-3.png",
+        img: "./assets/optimized/mulan-user-3.webp",
         caption: "月光幻境里的银紫战甲，带有更强的奇幻气质。"
       },
       {
-        img: "./assets/mulan-user-4.png",
+        img: "./assets/optimized/mulan-user-4.webp",
         caption: "暗紫宫殿中的全身构图，适合做高级封面图。"
       }
     ],
@@ -71,43 +71,43 @@ const heroes = [
     id: "luna",
     name: "露娜",
     title: "月光之女",
-    img: "./assets/luna-user-2.png",
+    img: "./assets/optimized/luna-user-2.webp",
     caption: "星月之下执刃而立，银白长发与月光形成完整人物主视觉。",
     gallery: [
       {
-        img: "./assets/luna-user-1.png",
+        img: "./assets/optimized/luna-user-1.webp",
         caption: "血月玫瑰下的回眸，冷艳与危险并存。"
       },
       {
-        img: "./assets/luna-user-2.png",
+        img: "./assets/optimized/luna-user-2.webp",
         caption: "蓝白星夜主视觉，最适合作为露娜人物档案封面。"
       },
       {
-        img: "./assets/luna-user-3.png",
+        img: "./assets/optimized/luna-user-3.webp",
         caption: "红月花园中的玫瑰战衣，情绪更浓烈。"
       },
       {
-        img: "./assets/luna-user-4.png",
+        img: "./assets/optimized/luna-user-4.webp",
         caption: "蓝光法阵中的近景出招，月刃压迫感很强。"
       },
       {
-        img: "./assets/luna-user-5.png",
+        img: "./assets/optimized/luna-user-5.webp",
         caption: "红黑月夜里的背身回望，适合故事转折章节。"
       },
       {
-        img: "./assets/luna-user-6.png",
+        img: "./assets/optimized/luna-user-6.webp",
         caption: "紫银弯月构图，突出宿命与孤独感。"
       },
       {
-        img: "./assets/luna-user-7.png",
+        img: "./assets/optimized/luna-user-7.webp",
         caption: "星盘前的侧身静帧，更像人物设定集内页。"
       },
       {
-        img: "./assets/luna-user-8.png",
+        img: "./assets/optimized/luna-user-8.webp",
         caption: "月轮与紫晶武器同框，适合技能视觉展示。"
       },
       {
-        img: "./assets/luna-user-9.png",
+        img: "./assets/optimized/luna-user-9.webp",
         caption: "冷蓝圣殿中的银发战姿，适合做章节封面。"
       }
     ],
@@ -125,27 +125,27 @@ const heroes = [
     id: "kai",
     name: "铠",
     title: "破灭刃锋",
-    img: "./assets/kai-user-1.png",
+    img: "./assets/optimized/kai-user-1.webp",
     caption: "蓝银圣殿中持刃而立，冷峻压迫感更像电影主角。",
     gallery: [
       {
-        img: "./assets/kai-user-1.png",
+        img: "./assets/optimized/kai-user-1.webp",
         caption: "蓝银战甲主视觉，人物气场最完整。"
       },
       {
-        img: "./assets/kai-user-2.png",
+        img: "./assets/optimized/kai-user-2.webp",
         caption: "龙影环绕的冰蓝长镜，带出更强神性。"
       },
       {
-        img: "./assets/kai-user-3.png",
+        img: "./assets/optimized/kai-user-3.webp",
         caption: "白金龙刃近景，适合作为技能觉醒设定图。"
       },
       {
-        img: "./assets/kai-user-4.png",
+        img: "./assets/optimized/kai-user-4.webp",
         caption: "月下正面构图，冷光与黑甲形成强烈对比。"
       },
       {
-        img: "./assets/kai-user-5.png",
+        img: "./assets/optimized/kai-user-5.webp",
         caption: "银白近景压迫感强，适合作为人物详情封面。"
       }
     ],
@@ -163,23 +163,23 @@ const heroes = [
     id: "diaochan",
     name: "貂蝉",
     title: "绝世舞姬",
-    img: "./assets/diaochan-user-2.png",
+    img: "./assets/optimized/diaochan-user-2.webp",
     caption: "紫晶幻境中起舞，锋芒藏在每一次回眸里。",
     gallery: [
       {
-        img: "./assets/diaochan-user-1.png",
+        img: "./assets/optimized/diaochan-user-1.webp",
         caption: "银发回眸，暗紫宫殿里的危险优雅。"
       },
       {
-        img: "./assets/diaochan-user-2.png",
+        img: "./assets/optimized/diaochan-user-2.webp",
         caption: "双臂展开，像把整座幻境都纳入舞步。"
       },
       {
-        img: "./assets/diaochan-user-3.png",
+        img: "./assets/optimized/diaochan-user-3.webp",
         caption: "哥特圣殿中的远景长镜，命运感更强。"
       },
       {
-        img: "./assets/diaochan-user-4.png",
+        img: "./assets/optimized/diaochan-user-4.webp",
         caption: "粉紫月光下的盛装全身像，适合封面视觉。"
       }
     ],
@@ -197,27 +197,27 @@ const heroes = [
     id: "sun-wukong",
     name: "孙悟空",
     title: "齐天大圣",
-    img: "./assets/sun-wukong-user-1.png",
+    img: "./assets/optimized/sun-wukong-user-1.webp",
     caption: "金光从掌心炸开，齐天战意压住整片天地。",
     gallery: [
       {
-        img: "./assets/sun-wukong-user-1.png",
+        img: "./assets/optimized/sun-wukong-user-1.webp",
         caption: "正面压迫感极强的出场镜头，金箍棒横贯画面。"
       },
       {
-        img: "./assets/sun-wukong-user-2.png",
+        img: "./assets/optimized/sun-wukong-user-2.webp",
         caption: "水墨战场里的低身突进，速度与杀气更强。"
       },
       {
-        img: "./assets/sun-wukong-user-3.png",
+        img: "./assets/optimized/sun-wukong-user-3.webp",
         caption: "逆光长棍低角度，最接近电影海报的英雄瞬间。"
       },
       {
-        img: "./assets/sun-wukong-user-4.png",
+        img: "./assets/optimized/sun-wukong-user-4.webp",
         caption: "金白重甲静坐，适合作为神性觉醒设定图。"
       },
       {
-        img: "./assets/sun-wukong-user-5.png",
+        img: "./assets/optimized/sun-wukong-user-5.webp",
         caption: "近景冲锋构图，棍身透视带来强烈临场感。"
       }
     ],
@@ -261,7 +261,7 @@ const playlist = [
   },
   {
     title: "Forever - T-Chenxi",
-    src: "./assets/audio/forever-t-chenxi.flac"
+    src: "./assets/audio/forever-t-chenxi-compressed.mp3"
   },
   {
     title: "是好",
@@ -317,7 +317,7 @@ function renderGallery() {
       <article class="hero-card ${item.featured ? "is-featured" : ""}" style="--card-accent: ${
         index % 2 ? "var(--ember)" : "var(--jade)"
       }">
-        <img src="${item.img}" alt="${item.name}人物图" />
+        <img src="${item.img}" alt="${item.name}人物图" loading="lazy" decoding="async" />
         <div class="hero-card-copy">
           <span>${item.title}</span>
           <h3>${item.name}</h3>
